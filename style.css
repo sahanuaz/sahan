@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('mailchimp-Vc2dD4l57og-unsplash.jpg');
+    background-size: cover;
+}
+
+.box{
+    margin-top: 15%;
+    text-align: center;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn_submit{
+    text-decoration: none;
+    height: 2rem;
+    width: 10%;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    outline: none;
+    transition: all .3s;
+}
+
+.btn_submit:hover{
+    background-color: #dfe6e9;
+}
+
+#data{
+    font-size: .9rem;
+    font-weight: 300;
+    height: 2rem;
+    width: 15rem;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #7f8c8d; 
+    transition: all .3s;
+}
+
+#data:focus{
+    outline: none;
+    border-bottom: 3px solid #e67e22;
+}
+
+
+
